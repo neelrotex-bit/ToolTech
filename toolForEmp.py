@@ -2,7 +2,7 @@ import streamlit as st
 import MT5Manager
 
 # UI for connection
-server_ip = st.text_input("Server IP", "188.240.63.181:443")
+server_ip = st.text_input("Server IP", "")
 manager_login = st.number_input("Manager Login", min_value=1)
 manager_password = st.text_input("Manager Password", type="password")
 
